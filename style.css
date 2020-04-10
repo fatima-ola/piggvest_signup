@@ -1,0 +1,151 @@
+body{
+	background-color: #ADD8E6;
+	height: 950px;
+	width: auto;
+	margin: 0px;
+}
+
+.center{
+	margin-top: 20px;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+	width: 191px;
+    height: 48px;
+}
+
+#maincontainer{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+	background-color: #ffffff;
+	margin-top: 30px;
+	padding: 40px;
+	width: 400px;
+	height: 780px;    
+	border: 2px solid #e2e8f0;
+	border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+	text-align: center;
+	margin: 0px;
+	color: #083e9e;
+	font-weight: 700;
+	font-family: U8,sans-serif;
+}
+
+p{
+	text-align: center;
+	margin: 0px;
+	font-size: .875rem;
+	color: #4a5568;
+	font-family: Karla,sans-serif;
+}
+
+form{
+	margin-top: 32px;
+}
+
+.formcontainer{
+	margin-bottom: 32px;
+}
+
+label{
+	margin-bottom: 4px;
+	font-size: .75rem;
+	color: #4a5568;
+	line-height: 2;
+	font-family: U8,sans-serif;
+	font-weight: 700;
+}
+
+input{
+	background-color: #edf2f7;
+	border: none;
+	outline: 0;
+	overflow: visible;
+	margin-bottom: .25rem;
+	width: 365px;
+	padding: 16px;
+	border-radius: .25rem;  
+}
+
+select{
+	background-color: #edf2f7;
+	border: none;
+	outline: 0;
+	margin-bottom: .25rem;
+	width: 400px;
+	padding: 16px;
+	border-radius: .25rem;  
+}
+
+option{
+	font-family: U8,sans-serif;
+	font-weight: 700;
+	overflow-y: scroll;
+	padding: 10px;
+}
+
+button{
+	color: #ffffff;
+	width: 400px; 
+	margin: 0 auto;
+	padding-top: 1.25rem;
+	padding-bottom: 1rem;
+	border: 0px;
+	background-color: rgb(8, 62, 158);
+	border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    font-weight: 700;
+    font-family: U8,sans-serif;   
+}
+
+#loginlink{
+
+    align-items: center;
+	color: rgb(8, 62, 158);
+	margin-top: 32px;
+	margin-bottom: 32px;
+    font-size: .875rem;
+    padding: 4px 20px;   
+}
+
+a{
+	text-decoration: none;
+	color: rgb(8, 62, 158);
+}
+
+@media screen and (max-width: 425px){
+  img{
+   margin-left: 60px; 
+  }
+  #loginlink{
+  	margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  img{
+   margin-left: 120px; 
+  }
+  #loginlink{
+  	margin-left: 65px;
+  	padding-left: 30px;
+  }
+}
